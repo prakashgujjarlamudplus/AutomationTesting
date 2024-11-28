@@ -27,7 +27,14 @@ public class AdminLogin {
         driver.manage().window().maximize();
         driver.get(url);
     }
-	    
+	  
+    
+    
+    
+    
+    
+    
+    
     @Then("user click the {string} button")
     public void user_click_the_button(String buttonText) {
         // Adding explicit wait to ensure the button is clickable
