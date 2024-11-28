@@ -18,10 +18,7 @@ import java.util.Arrays;
 public class AdminLogin {
     WebDriver driver;
     WebDriverWait wait;
-   
-    
-    
-
+  
     @Given("I user navigate to the URL {string}")
     public void i_user_navigate_to_the_url(String url) {
     	System.setProperty("webdriver.edge.driver", "C:\\Users\\HP\\eclipse-workspace\\Automation001\\Driver\\msedgedriver.exe");
